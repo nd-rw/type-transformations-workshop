@@ -20,14 +20,14 @@ type A =
   | {
       type: "c";
       c: string;
-    };
+    }; // descriminated union?
 
-type B = "a" | "b" | "c";
+type B = "a" | "b" | "c"; //union
 
 enum C {
   A = "a",
   B = "b",
   C = "c",
-}
+} // enum
 
 export {};
